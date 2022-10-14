@@ -1,0 +1,256 @@
+* {
+    font: 350 15px "Lato",sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+.pronouns-text {
+    padding: 0 15px;
+    font-style: italic;
+}
+
+.description {
+    width: 75%;
+}
+
+.content {
+    margin-left: 10px;
+}
+
+.info a:hover {
+    background-color: #d0cccc;
+}
+
+body,
+html {
+    background-color:#eee;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #eee;
+    width: 100%;
+    height: 145px;
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.links {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.link {
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 20px;
+    padding: 0 4px;
+}
+
+.link--active, .link:hover {
+    background-color: #d0cccc;
+}
+
+.separator {
+    content: url(img/separator.png);
+    margin: auto;
+    margin-top: 20px;
+}
+
+header a:link,
+header a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+header a:active,
+header a:hover {
+    color: #777;
+    text-decoration:underline;
+}
+
+header img {
+    margin-bottom:-3px;
+    width:16px;
+    image-rendering: auto;
+}
+
+header * {
+    display: 1px;
+}
+
+header .name {
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 800;
+}
+
+
+header .info {
+    font-size: 8px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.about {
+    width: 500px;
+    margin: auto;
+}
+
+.about-text {
+    padding: 15px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+@media (max-width:500px){
+    header img{
+        width: 14px;
+    }
+    header .info a{
+        font-size: 7px;
+    }
+    .about {
+        width: 350px;
+    }
+    .link {
+        font-size: 12px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+}
+
+.profile-image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.wrapper{
+    width:100%;
+    background-color:#fff;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.container h1 {
+    padding-left: 15px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container table {
+    width: 100%;
+    padding: 10px;
+}
+
+.container table .title {
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.container table .duration {
+    font-size: 12px;
+    text-align: right;
+}
+
+.container table .descripxion {
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.container .note {
+    font-size: 14px;
+    padding-left: 10px;
+    font-weight: 300;
+}
+
+.container .achievement table .year {
+    font-weight: 300;
+    font-size: 11px;
+    padding-left: 20px;
+    width: 40px;
+}
+
+footer {
+    background-color: #eee;
+    text-align: center;
+    font-size: 8px;
+    padding-top: 10px;
+    padding-bottom:2px;
+    width: 100%;
+    min-height: 10px;
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+
+.elapsed {
+    font-size: 13px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.clickable {
+    color: gray;
+}
+
+.clickable:hover{
+    background-color: #777;
+    color: white;
+}
+
+.progress-container {
+    width:100%;
+    height:1em;
+    position:relative;
+    background-color:#f1f1f1;
+    /*margin: 0px 10px; */
+}
+
+.progressbar {
+    background-color:#757575;
+    height:100%;
+    position:absolute;
+    line-height:inherit;
+}
+
+.progress-status {
+    padding:0;
+    margin:0;
+    font-size:9px;
+    display:inline;
+}
+
+.right {
+    float: right;
+}
+
+@media(max-width:800px){
+    body{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
